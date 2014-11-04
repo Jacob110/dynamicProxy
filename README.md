@@ -1,4 +1,4 @@
-dynamicProxy
+Dynamic Proxy Java Sample
 ============
 
 java dynamic proxy sample
