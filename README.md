@@ -16,7 +16,9 @@ Dynamic Proxy是这样一种`class`：它是在运行时生成的`class`，在�
 `ArrayListHandler`类中还定义了一个方法`bind`,此方法是通过`Proxy`类生成一个代理类。
 
 #### `Proxy` 类
-    Proxy provides static methods for creating dynamic proxy classes and instances, and it is also the superclass of all dynamic proxy classes created by those methods.
+*Proxy provides static methods for creating dynamic proxy classes and
+instances, and it is also the superclass of all dynamic proxy classes
+created by those methods.*
 `Proxy`这个类的作用就是用来动态创建一个代理对象的类，它提供了许多的方法，但是我们用的最多的就是 `newProxyInstance` 这个方法：
 
 `public static Object newProxyInstance(ClassLoader loader,Class<?>[] interfaces,InvocationHandler h)  throws IllegalArgumentException`
